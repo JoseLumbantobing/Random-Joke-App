@@ -33,6 +33,12 @@ body {
 
 .joke {
     margin: 1rem 0;
+    opacity: 0;
+}
+
+.joke.swap {
+    opacity: 1;
+    transition: opacity 1s;
 }
 
 .btn {
